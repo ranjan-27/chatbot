@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+   
+            
+}
+header{
+    text-align: center;
+}
+#q{
+   background-color: rgba(8, 196, 11, 0.489);
+   overflow: hidden;
+   display: inline-block;
+   border-radius: 20px;
+    
+}
+#h{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: xx-large;   
+    padding: 20px;
+    color: rgb(15, 15, 14);
+    
+}
+.main_container{
+   
+    border: 2px solid rgb(25, 24, 24);
+    border-radius: 20px;
+    text-align: center; 
+    height: 340px;
+    
+    width: 24%; /* or any specific width */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main_part1{
+    /* border: 2px solid black; */
+    padding: 10%;
+    background-color: rgba(202, 228, 29, 0.712);
+    
+    
+    
+    
+}
+.main_part2{
+    /* border: 2px solid black; */
+   background-color: rgba(25, 3, 96, 0.475);
+   /*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ25CecTdgpjJmmB9pP-GSovz5QQYWHmbWS7A&s-tbn0.gstatic.com/images?q=tbn:ANd9GcSEtX1X4kKMjrGduzBbYfMirhQEGDN6ksJYgg&s);*/
+  
+   padding: 20%;
+
+}
+#m{
+    font-size: x-large;
+    font-weight: 600;
+    color: rgb(59, 59, 235);
+    
+}
+#m1{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(221, 243, 222);
+    
+}
+#btn{
+    padding: 10px;
+    border-radius: 18px;
+    font-size: medium;
+    color: rgb(174, 90, 0);
+    background-color: rgba(127, 255, 136, 0.683);
+    margin: 7%;
+    cursor: pointer;
+}
+/* #m2{
+    background-color: rgba(116, 2, 222, 0.37);
+    
+} */
+#btn:hover {
+    /* background-color: #0056b3; Darker blue */
+    transform: scale(1.2); /* Slightly enlarge the button */
+}
+
+#btn:active {
+    transform: scale(0.9); /* Slightly shrink the button when clicked */
+}
+
+#btn {
+    
+    animation: typing  steps(30, end), blink-caret .75s step-end infinite;
+    
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    60% { border-color: #2203d4; }
+}
+
+
+
+
+
+
+
+
+
+
+
